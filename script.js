@@ -22,14 +22,14 @@ English.addEventListener("click", function () {
 
 //MobliePhone actions
 
-Arabic.addEventListener("touchstart", function (e) {
+Arabic.addEventListener("touchend", function (e) {
     e.preventDefault();
 
     Typenumber = "arab";
     option.numberingSystem = Typenumber;
     clockStart();
 });
-English.addEventListener("touchstart", function (e) {
+English.addEventListener("touchend", function (e) {
     e.preventDefault();
     Typenumber = "english";
     option.numberingSystem = Typenumber;

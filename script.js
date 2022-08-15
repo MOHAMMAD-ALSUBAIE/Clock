@@ -9,17 +9,18 @@ const option = {
     second: "numeric",
     hour12: false,
 };
-Arabic.addEventListener("click", function () {
-    Typenumber = "arab";
-    option.numberingSystem = Typenumber;
-    clockStart();
-});
-English.addEventListener("click", function () {
-    Typenumber = "english";
-    option.numberingSystem = Typenumber;
-    clockStart();
-});
-
+if (window.innerWidth > 850) {
+    Arabic.addEventListener("click", function () {
+        Typenumber = "arab";
+        option.numberingSystem = Typenumber;
+        clockStart();
+    });
+    English.addEventListener("click", function () {
+        Typenumber = "english";
+        option.numberingSystem = Typenumber;
+        clockStart();
+    });
+}
 //MobliePhone actions
 
 Arabic.addEventListener("touchend", function (e) {

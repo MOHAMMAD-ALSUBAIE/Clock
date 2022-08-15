@@ -14,7 +14,7 @@ Arabic.addEventListener("click", function () {
     option.numberingSystem = Typenumber;
     clockStart();
 });
-English.addEventListener("mouseover", function () {
+English.addEventListener("click", function () {
     Typenumber = "english";
     option.numberingSystem = Typenumber;
     clockStart();

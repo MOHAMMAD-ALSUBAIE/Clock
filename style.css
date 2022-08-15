@@ -39,13 +39,14 @@ h1 {
 }
 
 /* Hover */
-button:hover {
-    background-color: #a5c9ca;
-    color: #2c3333;
-}
+
 @media (min-width: 850px) {
     button {
         width: 200px;
         margin: 50px 0 50px 0;
     }
+    button:hover {
+    background-color: #a5c9ca;
+    color: #2c3333;
+}
 }
